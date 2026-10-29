@@ -11,8 +11,9 @@ locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Nafiul Hasan Anik"
 title_separator          : "-"
+masthead_title           : "Homepage"
 name                     : &name "Nafiul Hasan Anik"
-description              : &description "Research interests in graph representation learning and hypergraph classification." 
+description              : &description "Machine Learning Engineer working on the evaluation and reliability of LLM systems and on hypergraph representation learning." 
 url                      : https://nafihasan.github.io 
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "nafihasan/nafihasan.github.io"
@@ -22,14 +23,15 @@ repository               : "nafihasan/nafihasan.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Nafiul Hasan Anik"
   pronouns         : # example: "she/her"  
-  bio              : "Graph representation learning and hypergraph classification"
+  bio              : "Machine Learning Engineer. LLM evaluation, grounded RAG, and hypergraph learning."
   location         : "Dhaka, Bangladesh"
-  employer         : "Therap BD Ltd."
+  employer         : "Therap (BD) Ltd."
+  employer_url     : "https://www.therapbd.com/"
   uri              : # URL
-  email            : "nafiulhasan-2019017811@cs.du.ac.bd" 
+  email            : "nafiul.h.anik@gmail.com" 
 
   # Academic websites
   academia         : # URL
@@ -65,7 +67,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "nafihasan"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -196,7 +198,6 @@ exclude:
   - _talks
   - _teaching
   - _portfolio
-  - files
   - talkmap
   - markdown_generator
   - scripts

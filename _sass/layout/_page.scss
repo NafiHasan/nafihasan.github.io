@@ -399,3 +399,21 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
+
+/* keep headings clear of the fixed masthead when jumping to a section */
+.page__content h2 {
+  scroll-margin-top: 4rem;
+}
+
+/* publication entries: authors and venue each on their own line */
+.pub-authors,
+.pub-venue {
+  display: block;
+  margin-top: 0.2em;
+}
+
+.pub-venue {
+  /* a softer shade of the body text, so it follows light and dark themes */
+  color: var(--global-text-color);
+  color: color-mix(in srgb, var(--global-text-color) 75%, var(--global-bg-color));
+}

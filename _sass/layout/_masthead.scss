@@ -66,6 +66,20 @@
   }
 }
 
+#site-nav {
+  padding-right: 3rem;
+
+  button {
+    right: 3rem;
+  }
+}
+
+#theme-toggle {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
 .masthead__menu-item.selected a {
   color: var(--global-text-color);
   font-weight: 700;
@@ -78,4 +92,10 @@
   color: var(--global-text-color);
   border-bottom: 2px solid var(--global-text-color);
   /* No need to repeat pointer-events and cursor here */
+}
+
+/* on the single-page homepage, the selected title link scrolls back to the top */
+.masthead__menu-item--lg.selected a {
+  pointer-events: auto;
+  cursor: pointer;
 }
