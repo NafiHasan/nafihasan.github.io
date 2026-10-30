@@ -17,7 +17,7 @@ I am interested in knowing when we can rely on what an AI system produces. For m
 - Grounded retrieval-augmented generation
 - LLM reasoning about code
 
-## Research Experience
+## Research
 
 **Overlap-Aware Sub-hypergraph Pattern Frequencies for Hypergraph-Level Classification**
 <span class="pub-authors">**Nafiul Hasan Anik**, Nazira Jesmin Lina, Md Tanvir Alam, Md. Fahim Arefin</span>
@@ -35,9 +35,9 @@ We study whether LLMs can predict online-judge verdicts from a problem descripti
 
 **Machine Learning Engineer**, Therap (BD) Ltd., Dhaka (Apr 2025 – present)
 
-- **LLM-as-judge evaluation of a support chatbot:** simulated multi-turn users who reveal context only when asked, and scored conversations against curated ground truth with a rubric that separates correctness from completeness. I used it to compare 4 chatbot backends on 87 curated questions.
+- **LLM-as-judge evaluation of a support chatbot:** LLM-simulated users hold multi-turn conversations with the chatbot, sharing details only when asked. A judge model then scores each answer for correctness and completeness. I used it to compare 4 chatbot backends on 87 curated questions.
 - **Retrieval-augmented support chatbot:** hybrid dense and keyword retrieval over a ~239K-record knowledge base, with query paraphrasing, reranking, and a validator that diagnoses failed answers and triggers a matching regeneration strategy. I also built the ingestion pipeline that cleans, chunks, and indexes the knowledge base, with LLM-generated concept phrases and incremental sync.
-- **Faithfulness evaluation of LLM-generated charts:** checks whether generated Vega-Lite and matplotlib charts faithfully represent large nested XML health records, against ground truth cross-validated between a deterministic parser and an LLM extractor.
+- **Faithfulness evaluation of LLM-generated charts:** checks whether charts an LLM generates (e.g. Vega-Lite, matplotlib) accurately reflect large nested XML health records. The ground truth is cross-checked between a rule-based parser and an LLM extractor.
 - **RAG benchmarking and fine-tuning:** benchmarked RAG pipelines from single-passage to multi-hop and book-length QA; fine-tuned Gemma 3 with LoRA and BERT-family encoders.
 
 ## Education
@@ -48,8 +48,8 @@ CGPA: **3.49/4.00**
 
 ## Achievements
 
-- **Online judges:** [Codeforces](https://codeforces.com/profile/N_Crypted) Expert (max rating 1719, 1000+ problems solved); [CodeChef](https://www.codechef.com/users/n_crypted) 5-star (max rating 2012)
 - **ICPC Asia Dhaka Regional 2023:** [19th](https://icpc.global/ICPCID/VIASLG13GQUT) of 200+ teams
-- **Meta Hacker Cup 2024:** ranked [1094](https://www.facebook.com/codingcompetitions/hacker-cup/2024/certificate/578273137109641) of 5000+ participants in Round 2 (top 22%)
+- **Online judges:** [Codeforces](https://codeforces.com/profile/N_Crypted) Expert (max rating 1719, 1000+ problems solved); [CodeChef](https://www.codechef.com/users/n_crypted) 5-star (max rating 2012)
+- **Meta Hacker Cup 2024:** ranked [1094](https://www.facebook.com/codingcompetitions/hacker-cup/2024/certificate/578273137109641) of 5000+ participants worldwide in Round 2
 - **SUST Inter-University Programming Contest 2023:** 15th of 120+ teams
 - **Code Samurai 2024 (BJIT):** 11th in the inter-university hackathon

@@ -403,6 +403,9 @@
 /* keep headings clear of the fixed masthead when jumping to a section */
 .page__content h2 {
   scroll-margin-top: 4rem;
+  margin-top: 2.5em;
+  /* a faint rule in a softer shade of the body text, so it follows light and dark themes */
+  border-bottom-color: color-mix(in srgb, var(--global-text-color) 15%, var(--global-bg-color));
 }
 
 /* publication entries: authors and venue each on their own line */
