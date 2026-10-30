@@ -208,11 +208,21 @@
   }
 }
 
+.author__position {
+  margin: 0;
+  font-weight: bold;
+  white-space: nowrap;
+
+  @include breakpoint($large) {
+    margin-top: 10px;
+  }
+}
+
 .author__bio {
   margin: 0;
 
   @include breakpoint($large) {
-    margin-top: 10px;
+    margin-top: 18px;
     margin-bottom: 20px;
   }
 }

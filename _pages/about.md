@@ -49,7 +49,7 @@ CGPA: **3.49/4.00**
 ## Achievements
 
 - **Online judges:** [Codeforces](https://codeforces.com/profile/N_Crypted) Expert (max rating 1719, 1000+ problems solved); [CodeChef](https://www.codechef.com/users/n_crypted) 5-star (max rating 2012)
-- **[ICPC Asia Dhaka Regional 2023](https://icpc.global/ICPCID/VIASLG13GQUT):** 19th of 200+ teams
-- **[Meta Hacker Cup 2024](https://www.facebook.com/codingcompetitions/hacker-cup/2024/certificate/578273137109641):** ranked 1094 of 5000+ participants in Round 2 (top 22%)
+- **ICPC Asia Dhaka Regional 2023:** [19th](https://icpc.global/ICPCID/VIASLG13GQUT) of 200+ teams
+- **Meta Hacker Cup 2024:** ranked [1094](https://www.facebook.com/codingcompetitions/hacker-cup/2024/certificate/578273137109641) of 5000+ participants in Round 2 (top 22%)
 - **SUST Inter-University Programming Contest 2023:** 15th of 120+ teams
 - **Code Samurai 2024 (BJIT):** 11th in the inter-university hackathon
