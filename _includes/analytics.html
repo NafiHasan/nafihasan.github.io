@@ -12,3 +12,7 @@
 {% endcase %}
 
 {% endif %}
+
+{% if site.analytics.goatcounter and page.analytics != false %}
+  {% include /analytics-providers/goatcounter.html %}
+{% endif %}
